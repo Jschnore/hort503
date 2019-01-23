@@ -1,0 +1,18 @@
+      Jonathan Schnore
+Hort 503-01  Assignment 3
+
+
+1.Please describe what data set you selected and why you selected it. 
+I chose the data because it had both qualitative and quantitative information, as well as being from the NCBI database which is what was recommended to use from Dr. Biggs. Another criteria was the fact that it had the geodata (which was recommended to me to look for from our post doc Gagan) associated with it.
+
+
+2.The data you found must be accessible to you either from your own research or 
+on the internet. Where can your data be found?  If it is available on the internet please provide a link to the dataset.
+The data is from the internet. I do not have any data from my own research yet. I already have the file in CSV form uploaded to my git. I got it from the following link.
+https://www.ncbi.nlm.nih.gov/bioproject/PRJNA97589
+
+
+
+3.If your selected data is from your graduate research do you have permission from your advisor to use it for class?
+It is not from my research as I do not have data yet.
+
