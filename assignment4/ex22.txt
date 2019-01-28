@@ -1,0 +1,24 @@
+print   prints a string or input
+format
+\n return like you hit the return button at end of line
+seek () seeks to specifiied byte
+=
++
+-
+\r read
+\w write
+\r+ read and write
+/
+*
+argv an arguement
+string a string
+(f" {}) adding an arguement to a printed statement
+.read read a file
+open() open a file
+input() input from user
+from sys inport argv statement required for opening an argv calling from system
+write() write to a file
+close() close a file
+def define a function
+readline() reading at a specific line
+return returning a value from a function so you can use in an argument or as a variable
