@@ -1,0 +1,6 @@
+file handle = open
+contents=filehandle.read()
+contents=filehandle.readlines()
+expr.vals=[]
+for line in contents:
+expr.vals.append(line.split("\t"))
