@@ -1,21 +1,76 @@
-Bokeh in Jupyter Notebooks
-==========================
+## Clone or download the repo
+First get local copies of the tutorial notebooks:
 
-Welcome to [Bokeh](https://bokeh.pydata.org/) in Jupyter Notebooks!
+```
+$ git clone https://github.com/bokeh/bokeh-notebooks.git
+```
 
-Bokeh is a Python interactive visualization library for large datasets that
-natively uses the latest web technologies. Its goal is to provide elegant,
-concise construction of novel graphics in the style of Protovis/D3, while
-delivering high-performance interactivity over large data to thin clients.
+Or download from: https://github.com/bokeh/bokeh-notebooks/archive/master.zip
 
-These Jupyter notebooks provide useful Bokeh examples and a tutorial to get
-started. You can visualize the rendered Jupyter notebooks
-[on NBViewer](http://nbviewer.ipython.org/github/bokeh/bokeh-notebooks) or
-download the repository and execute `jupyter notebook` from your terminal.
+## Install the dependencies
 
-You can also immediately launch live versions of the Tutorial notebooks in your browser [on mybinder](https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb).
+This tutorial has been tested on:
 
-Please visit the [Bokeh web page](https://bokeh.pydata.org/en/latest) for
-more information and full documentation.
+* bokeh 0.12.7
+* pandas 0.20.3
+* notebook 5.0.0
+* phantomjs 2.1.1
+* pillow 4.2.1
+* selenium 3.5.0
 
-Be sure to follow us on Twitter @BokehPlots!
+Other combinations may work also.
+
+The quickest, easiest way to install is to use Anaconda (or Miniconda):
+
+#### Installing with anaconda
+
+Install [anaconda](http://anaconda.com/downloads)
+
+Anaconda should come with all the dependencies included, but you may need to update your versions.
+
+#### Installing with miniconda
+
+Install [miniconda](http://conda.pydata.org/miniconda.html).
+
+Use the command line to create an environment and install the packages:
+
+```bash
+$ conda env create
+$ source activate bokeh-notebooks
+```
+
+NOTE: Run this in the `tutorial` directory where `environment.yml` file is.
+
+----
+
+Once you've got a base install, you can install the remaining dependencies with:
+
+```bash
+conda install phantomjs pillow selenium
+```
+
+## Get the sample data
+
+Bokeh has a sample data download that gives us some data to build demo visualizations. To get
+it run the following command at your command line:
+
+```bash
+$ bokeh sampledata
+```
+
+### Install Datashader and Holoviews (optional)
+
+Some optional sections require the additional packages Flask, Datashader, and Holoviews.
+These  can be installed with:
+
+```bash
+$ conda install -c datashader holoviews flask
+```
+
+## Run the Jupyter notebook
+
+From this folder run jupyter notebook, and open the [00 - Introduction and Setup.ipynb](00 - Introduction and Setup.ipynb) notebook.
+
+```
+$ jupyter notebook
+```
